@@ -28,7 +28,7 @@ from PIL import Image
 #Index(['Title', 'Description', 'Primary Description', 'Detail URL', 'Location','Skill']
 
 #Lectura del df_original
-file_path = "C:/Users/camil/Documents/Data Sciences/Jobs Scrapped/Jobs_Gerente_de_Producto_20240829.xlsx"
+file_path = "C:/File.xlsx"
 df = pd.read_excel(file_path)
 print(df.tail())
 
